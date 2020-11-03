@@ -3,48 +3,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React, { Component, useState } from 'react';
 import { FlatList, StyleSheet, Text, View, Button, TextInput } from 'react-native';
-// import WifiDirect from 'react-native-wifi-direct';
-// import { PermissionsAndroid } from 'react-native';
-
-// =========== WIFI permissions ===========
-// const permission = PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION
-// const options = {
-//   'title': 'Wifi networks',
-//   'message': 'We need your permission in order to find wifi networks'
-// }
-
-// PermissionsAndroid.request(permission, options).then((granted) => {
-//   if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-//     console.log("Permission granted!");
-//   } else {
-//     console.log("You will not able to retrieve wifi available networks list")
-//   }
-// }).catch((error) => {
-//   console.warn(error)
-// })
-// ========================================
-
-// 
-// WifiDirect.discoverPeers().then((success) => {
-//   if (success) {
-//     console.log("Peer discovery has initiated successfully.")
-//   } else {
-//     console.log("Peer discover failed to initiate.  Is your Wi-Fi on?")
-//   }
-// })
-
-
-// WifiDirect.addListener('PEERS_UPDATED', peersUpdated)
- 
-// // Don't forget to remove the listener to prevent a memory leak
-// componentWillUnmount () {
-//   WifiDirect.removeListener('PEERS_UPDATED', this.peersUpdated)
-// }
- 
-// const peersUpdated = (event) => {
-//   console.log("Devices found!", event.devices)
-// }
-// 
 
 const styles = StyleSheet.create({
   container: {
